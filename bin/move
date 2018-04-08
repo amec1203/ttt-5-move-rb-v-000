@@ -15,4 +15,4 @@ end
 
 puts "Where would you like to go?"
 user_input = gets.strip
-index
+
