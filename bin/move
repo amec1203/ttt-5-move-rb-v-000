@@ -14,5 +14,5 @@ def display_board(board)
 end
 
 puts "Where would you like to go?"
-input = gets.strip
+user_input = gets.strip
 input_to_index(user_input)
