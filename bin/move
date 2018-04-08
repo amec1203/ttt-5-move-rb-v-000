@@ -15,3 +15,5 @@ end
 
 puts "Where would you like to go?"
 user_input = gets.strip
+
+move(board, index, X)
