@@ -16,6 +16,6 @@ end
 puts display_board(board)
 
 input = gets.strip
-
+index = user_input.to_i - 1
 move(board, index, X)
 puts display_board(board)
