@@ -16,6 +16,7 @@ end
 puts display_board(board)
 
 user_input = gets.strip
+user_input.index
 
 move(board, index, X)
 display_board(board)
