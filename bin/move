@@ -15,7 +15,7 @@ def display_board(board)
 end
 puts display_board(board)
 
-input = gets.strip
+user_input = gets.strip
 
 move(board, index, X)
 puts display_board(board)
